@@ -37,8 +37,6 @@ namespace LUCI {
       }
     }
 
-    public static void test() => Console.WriteLine("The push has worked!");
-
     public static void runFile(string path)
     {
       byte[] bytes = File.ReadAllBytes(path);
